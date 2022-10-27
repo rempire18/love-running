@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Love Running</title>
+    
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+    <header>
+        <a href="index.html">
+            <h2 id="logo">Love Running</h2>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a class="active" href="signup.html">Sign Up</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   <section class="form-section">
+       
+  <!--Begin by pasting the solution code from Challnge 1 in here-->
+  
+       <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+           <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+           <!--First Name-->
+               <label for="fname">First Name</label>
+               <input class="text-input" type="text" id="fname" name="first_name" required> 
+           
+           <!--Last Name-->
+                <label for="lname">Last Name</label>
+                <input class="text-input" type="text" id="lname" name="last_name" required>
+           
+           <!--Email-->
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
+           <!--Running Preference-->
+           
+           <label for="road">Road</label>
+           <input id="road" value="road" name="running_preference" type="radio" required>
+           
+           <label for="trail">Trail</label>
+           <input id="trail" value="trail" name="running_preference" type="radio">
+           
+           <!--Both-->
+           
+           <label for="both">Both</label>
+           <input id="both" value="both" name="running_preference" type="radio">
+           
+    
+           <input class="join-button" type="submit" value="Let's Run!">
+           
+       </form>
+      
+  
+    
+  
+   </section> 
+    <footer>
+        <ul class="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/3982258271.js"></script>
+</body>
+</html>
